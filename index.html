@@ -85,8 +85,7 @@
               </p>
               <label class="input lg:flex-row flex-col rounded-full py-6 input-bordered flex items-center gap-2">
                 <input id="input" type="text" class="grow" placeholder="Search here anything" />
-                <button
-                  class=" btn rounded-3xl lg:px-7 text-xl capitalize bg-[#797DFC] text-white">search</button>
+                <button class=" btn rounded-3xl lg:px-7 text-xl capitalize bg-[#797DFC] text-white">search</button>
               </label>
             </div>
 
@@ -120,7 +119,43 @@
       </div>
     </section>
     <!-- banner section end -->
-  </main>  
+
+    <!-- Let's Discuss section start -->
+    <section class="my-16">
+      <div class="flex flex-col justify-center items-center gap-3">
+        <h2 class="text-[40px] font-black">Let's Discuss</h2>
+        <p class=" text-center text-[#12132d99] lg:text-[18px] capitalize lg:w-[500px]">Let's delve into some additional
+          forum-related queries and explore other pertinent topics. <br> Your assistance has been invaluable, and we
+          appreciate your expertise.</p>
+      </div>
+      <!-- spinner -->
+      <section id="spinner" class="mt-10 text-blue-500 hidden">
+        <div class="flex justify-center items-center">
+          <span class="loading loading-bars loading-lg"></span>
+        </div>
+      </section>
+
+      <!-- card  section-->
+      <div class="grid lg:grid-cols-6  gap-10 my-10">
+        <!-- single card -->
+        <div id="posting" class="lg:col-span-4 col-span-6  rounded-3xl bg-[#797dfc1a]">
+
+        </div>
+        <!-- 2nd side card -->
+        <div class="lg:col-span-2 col-span-6 p-5 bg-[#12132d0d] rounded-2xl">
+          <div class="flex justify-between">
+            <h1 class="text-2xl font-bold">Title</h1>
+            <h1 class="text-2xl font-bold"><i class="text-green-700 fa-solid fa-check-double"></i> Marks as reed <span
+                id="counting" class="text-green-400 text-2xl font-bold">(0)</span></h1>
+          </div>
+          <div id="second-card">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Let's Discuss section end -->
+    
+  </main>
   <script src="js/script.js"></script>
   <script src="js/style.js"></script>
 </body>
