@@ -1,22 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unique Forum</title>
-  
-    <!-- css connect -->
-    <link rel="stylesheet" href="styles/style.css">
-  
-    <!-- daisyUi and tailwind cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  
-    <!-- font awesome cdn -->
-    <script src="https://kit.fontawesome.com/c07f33f49f.js" crossorigin="anonymous"></script>
-  
-  </head>
-<body>
-  
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique Forum</title>
+
+  <!-- css connect -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- daisyUi and tailwind cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/c07f33f49f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="mulish">
+
+  <!-- navbar start -->
+  <nav class="container mx-auto my-5">
+    <div>
+      <div class="navbar flex justify-between">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-3xl lg:text-4xl font-extrabold mulish text-[#12132D]">Unique</a>
+        </div>
+        <!-- nav icon -->
+        <div class="navbar-end flex gap-10">
+          <!-- nav button -->
+          <div class="hidden lg:flex gap-5">
+            <button class="btn btn-circle navtitle">
+              <div class="tooltip">
+                <img class="h-6 w-6" src="./images/home.png" alt="" />
+                <span class="navtext">Home</span>
+              </div>
+            </button>
+            <button class="btn btn-circle navtitle">
+              <div class="tooltip">
+                <img class="h-6 w-6" src="./images/pensil.png" alt="" />
+                <span class="navtext">Adjust</span>
+              </div>
+            </button>
+            <button class="btn btn-circle navtitle">
+              <div class="tooltip">
+                <img class="h-6 w-6" src="./images/add.png" alt="" />
+                <span class="navtext">Add</span>
+              </div>
+            </button>
+            <button class="btn btn-circle navtitle">
+              <div class="tooltip">
+                <img class="h-6 w-6" src="./images/flag.png" alt="" />
+                <span class="navtext">Country</span>
+              </div>
+            </button>
+          </div>
+          <!-- nav button complete -->
+          <div>
+            <button class="btn rounded-2xl bg-[#797DFC] text-white">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <script src="js/script.js"></script>
+  <script src="js/style.js"></script>
 </body>
+
 </html>
